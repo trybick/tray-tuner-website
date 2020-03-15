@@ -21,8 +21,7 @@ const Content = () => (
       <div>
         <h3>What you need to Start</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+          Includes plugins for analytics, building sitemaps, and optimizing images
         </p>
       </div>
       <div>

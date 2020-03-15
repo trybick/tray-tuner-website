@@ -1,9 +1,27 @@
 {
-  "name": "gatsby-starter-landing-page",
-  "private": true,
-  "description": "A simple starter to create a minimal landing page with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
+  "name": "tray-tuner-website",
+  "description": "Website for Tray Tuner, an audio application",
+  "version": "0.0.1",
+  "author": "Tim Rybicki",
+  "keywords": [
+    "tray-tuner",
+    "audio streaming",
+    "gatsby"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "gatsby develop",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
@@ -21,24 +39,5 @@
   },
   "devDependencies": {
     "prettier": "^1.16.4"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
