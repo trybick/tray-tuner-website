@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Button from "../components/button";
+import Button from "./button";
 import headerImage from "../images/header.png";
 import appScreenshot from "../images/app-screenshot.png";
-import MockupContent from "./image";
-import mockupFrame from "../images/mockup-frame.png";
 
-const Header = ({ siteTitle }) => (
+const downloadsLink =
+  "https://drive.google.com/drive/folders/1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T?usp=sharing";
+
+const Header = () => (
   <div
     style={{
       display: "flex",
@@ -31,12 +32,9 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       A desktop application to control online radio streams.
     </p>
-    <a
-      href="https://drive.google.com/drive/folders/1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T?usp=sharing"
-      target="_blank"
-    >
-      <Button>Download</Button>
-    </a>
+    <Button to={downloadsLink} openNewTab>
+      Download
+    </Button>
     <div>
       <img src={appScreenshot} alt="app screenshot" />
     </div>
