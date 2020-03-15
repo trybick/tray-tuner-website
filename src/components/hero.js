@@ -31,7 +31,12 @@ const Header = ({ siteTitle }) => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       A desktop application to control online radio streams.
     </p>
-    <Button>Download</Button>
+    <a
+      href="https://drive.google.com/drive/folders/1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T?usp=sharing"
+      target="_blank"
+    >
+      <Button>Download</Button>
+    </a>
     <div>
       <img src={appScreenshot} alt="app screenshot" />
     </div>
