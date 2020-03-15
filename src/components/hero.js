@@ -1,9 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
-
-import Button from "./button";
 import headerImage from "../images/header.png";
 import appScreenshot from "../images/app-screenshot.png";
+import Button from "./button";
 
 const downloadsLink =
   "https://drive.google.com/drive/folders/1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T?usp=sharing";
@@ -40,13 +38,5 @@ const Header = () => (
     </div>
   </div>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
-};
 
 export default Header;
