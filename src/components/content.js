@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import feature from "../images/feature.png"
-import SectionHeader from "./section-header"
-import { COLORS } from "../styles/constants"
+import feature from "../images/feature.png";
+import SectionHeader from "./section-header";
+import { COLORS } from "../styles/constants";
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
@@ -30,6 +30,6 @@ const Content = () => (
       </div>
     </content>
   </div>
-)
+);
 
-export default Content
+export default Content;

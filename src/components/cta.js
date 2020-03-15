@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Button from "../components/button"
-import SectionHeader from "./section-header"
+import Button from "../components/button";
+import SectionHeader from "./section-header";
 
 const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
@@ -11,6 +11,6 @@ const CallToAction = () => (
     />
     <Button>Get Early Access</Button>
   </div>
-)
+);
 
-export default CallToAction
+export default CallToAction;

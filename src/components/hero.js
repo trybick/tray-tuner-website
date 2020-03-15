@@ -1,10 +1,10 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
-import Button from "../components/button"
-import headerImage from "../images/header.png"
-import MockupContent from "./image"
-import mockupFrame from "../images/mockup-frame.png"
+import Button from "../components/button";
+import headerImage from "../images/header.png";
+import MockupContent from "./image";
+import mockupFrame from "../images/mockup-frame.png";
 
 const Header = ({ siteTitle }) => (
   <div
@@ -50,14 +50,14 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
   </div>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants"
-import "../styles/button.css"
+import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants";
+import "../styles/button.css";
 
 const Button = ({ children }) => (
   <button
@@ -17,6 +17,6 @@ const Button = ({ children }) => (
   >
     {children}
   </button>
-)
+);
 
-export default Button
+export default Button;

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
-    description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
+    title: `Tray Tuner`,
+    description: `An audio streaming application for macOS, Windows, & Linux`,
+    author: `@trybick`,
     siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
   },
   plugins: [
