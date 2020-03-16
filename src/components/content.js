@@ -6,10 +6,7 @@ import { COLORS } from "../styles/constants";
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
-    <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
-    />
+    <SectionHeader title="Built with Electron" description="Supports macOS, Windows, and Linux" />
     <content
       style={{
         display: "grid",
@@ -19,9 +16,9 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>Simple and Powerful</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing images
+          Control your music with the UI, keyboard shortcuts, or from the system tray
         </p>
       </div>
       <div>
