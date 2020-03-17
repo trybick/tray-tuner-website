@@ -1,8 +1,7 @@
 import React from "react";
-
-import feature from "../images/feature.png";
 import SectionHeader from "./section-header";
 import { COLORS } from "../styles/constants";
+import trayScreenshot from "../images/screenshots/tray.png";
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
@@ -16,13 +15,17 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>Simple and Powerful</h3>
+        <h3>One click to play/pause from system tray</h3>
         <p style={{ color: COLORS.gray }}>
-          Control your music with the UI, keyboard shortcuts, or from the system tray
+          Control your music with the UI, keyboard shortcuts, or from the system tray.
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <img
+          src={trayScreenshot}
+          style={{ width: "50%" }}
+          alt="a blank card floating over colorful graphics"
+        />
       </div>
     </content>
   </div>
