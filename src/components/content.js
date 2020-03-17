@@ -5,7 +5,10 @@ import trayScreenshot from "../images/screenshots/tray.png";
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
-    <SectionHeader title="Built with Electron" description="Supports macOS, Windows, and Linux" />
+    <SectionHeader
+      title="One-click play from system tray"
+      description="Control from user-interface, keyboard shorcuts, and system tray."
+    />
     <content
       style={{
         display: "grid",
@@ -15,10 +18,8 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>One click to play/pause from system tray</h3>
-        <p style={{ color: COLORS.gray }}>
-          Control your music with the UI, keyboard shortcuts, or from the system tray.
-        </p>
+        <h3>Built with Electron</h3>
+        <p style={{ color: COLORS.gray }}>Supports macOS, Window, & Linux</p>
       </div>
       <div>
         <img
