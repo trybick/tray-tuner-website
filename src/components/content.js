@@ -6,8 +6,8 @@ import trayScreenshot from "../images/screenshots/tray.png";
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="One-click play from system tray"
-      description="Control from user-interface, keyboard shorcuts, and system tray."
+      title="Focus on the music"
+      description="Simple control of your favorite online radio streams"
     />
     <content
       style={{
@@ -18,8 +18,10 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>Built with Electron</h3>
-        <p style={{ color: COLORS.gray }}>Supports macOS, Window, & Linux</p>
+        <h3>Click-to-play tray icon</h3>
+        <p style={{ color: COLORS.gray }}>
+          Click the tray icon to toggle the music or use the built-in keyboard shortcuts
+        </p>
       </div>
       <div>
         <img
