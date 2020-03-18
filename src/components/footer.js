@@ -21,10 +21,7 @@ const Footer = ({ siteTitle }) => (
       }}
     >
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
-        <a
-          style={{ textDecoration: "none" }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
-        >
+        <a style={{ textDecoration: "none" }} href="https://github.com/trybick/tray-tuner">
           Contact Us
         </a>
       </div>
