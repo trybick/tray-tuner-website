@@ -28,7 +28,7 @@ const Header = () => (
     />
     <h1 style={{ textAlign: "center" }}>Tray Tuner</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      A desktop application to control online radio streams.
+      A desktop application to control online radio streams
     </p>
     <Button to={downloadsLink} openNewTab>
       Download
