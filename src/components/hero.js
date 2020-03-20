@@ -30,9 +30,7 @@ const Header = () => (
     <p style={{ textAlign: "center", maxWidth: 440 }}>
       A desktop application to control online radio streams
     </p>
-    <Button to={downloadsLink} openNewTab>
-      Download
-    </Button>
+    <Button to={downloadsLink}>Download</Button>
     <div>
       <img src={appScreenshot} alt="app screenshot" />
     </div>

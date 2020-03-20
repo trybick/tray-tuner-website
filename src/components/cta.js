@@ -1,15 +1,17 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import Button from "./button";
 import SectionHeader from "./section-header";
+
+const documentationLink = "https://github.com/trybick/tray-tuner#tray-tuner";
 
 const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader title="Built with Electron" description="Supports macOS, Windows, and Linux" />
-    <Link to="/docs/">
-      {" "}
-      <Button>Documentation</Button>
-    </Link>
+
+    <Button to={documentationLink}>Documentation</Button>
+
+    {/* <Link to="/docs/">Go to Page 2 (docs)</Link> */}
   </div>
 );
 
