@@ -22,7 +22,7 @@ const Header = () => (
         top: 0,
         zIndex: -5,
         height: "100vh",
-        width: "100vw",
+        width: "99vw",
         opacity: 0.5,
       }}
     />

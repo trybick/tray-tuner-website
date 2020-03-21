@@ -9,7 +9,7 @@ const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader title="Built with Electron" description="Supports macOS, Windows, and Linux" />
 
-    <Button to={documentationLink}>Documentation</Button>
+    <Button to={documentationLink}>How to Use</Button>
 
     {/* <Link to="/docs/">Go to Page 2 (docs)</Link> */}
   </div>
