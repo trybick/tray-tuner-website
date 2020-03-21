@@ -3,7 +3,7 @@ module.exports = {
     title: `Tray Tuner`,
     description: `An audio streaming application for macOS, Windows, & Linux`,
     author: `@trybick`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    siteUrl: `https://traytuner.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "UA-156066902-2",
       },
     },
     {
