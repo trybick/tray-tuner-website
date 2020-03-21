@@ -29,7 +29,6 @@ const Layout = ({ children }) => (
       <>
         <Helmet>
           <link rel="icon" href={favicon} />
-          <title>Tray Tuner</title>
         </Helmet>
         <div
           style={{
