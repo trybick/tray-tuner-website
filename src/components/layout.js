@@ -5,14 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
-import Helmet from "react-helmet";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 
-import Footer from "./footer";
-import "../styles/default.css";
-import favicon from "../images/favicon.ico";
+import Footer from './footer';
+import '../styles/default.css';
+import favicon from '../images/favicon.ico';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <div
           style={{
-            padding: "0 1rem",
+            padding: '0 1rem',
           }}
         >
           <main>{children}</main>

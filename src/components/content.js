@@ -1,20 +1,20 @@
-import React from "react";
-import SectionHeader from "./section-header";
-import { COLORS } from "../styles/constants";
-import trayScreenshot from "../images/screenshots/tray.png";
+import React from 'react';
+import SectionHeader from './section-header';
+import { COLORS } from '../styles/constants';
+import trayScreenshot from '../images/screenshots/tray.png';
 
 const Content = () => (
-  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
+  <div style={{ padding: '4rem 1rem', textAlign: 'center' }}>
     <SectionHeader
       title="Control any audio stream"
       description="Enter a custom URL or use one of the built-in streams"
     />
     <content
       style={{
-        display: "grid",
-        alignItems: "center",
-        justifyContent: "center",
-        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+        display: 'grid',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 340px))',
       }}
     >
       <div>
@@ -26,7 +26,7 @@ const Content = () => (
       <div>
         <img
           src={trayScreenshot}
-          style={{ width: "50%" }}
+          style={{ width: '50%' }}
           alt="a blank card floating over colorful graphics"
         />
       </div>

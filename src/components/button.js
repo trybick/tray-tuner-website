@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
-import { COLORS, BORDER_RADIUS, GRADIENT } from "../styles/constants";
-import "../styles/button.css";
+import { COLORS, BORDER_RADIUS, GRADIENT } from '../styles/constants';
+import '../styles/button.css';
 
 const style = {
-  padding: ".5rem 2.5rem",
+  padding: '.5rem 2.5rem',
   color: COLORS.lightWhite,
   fontWeight: 700,
   background: GRADIENT,
   borderRadius: BORDER_RADIUS,
   borderWidth: 0,
-  cursor: "pointer",
+  cursor: 'pointer',
 };
 
 const Button = ({ children, openNewTab, to }) => {
@@ -21,7 +21,7 @@ const Button = ({ children, openNewTab, to }) => {
   );
 
   return to ? (
-    <a href={to} target={openNewTab && "_blank"}>
+    <a href={to} target={openNewTab && '_blank'}>
       {baseButton}
     </a>
   ) : (
