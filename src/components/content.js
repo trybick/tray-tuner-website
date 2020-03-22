@@ -7,7 +7,7 @@ const Content = () => (
   <div style={{ padding: '4rem 1rem', textAlign: 'center' }}>
     <SectionHeader
       title="Control any audio stream"
-      description="Enter a custom URL or use one of the built-in streams"
+      description="Enter any URL or use one of the built-in sources"
     />
     <content
       style={{
@@ -18,7 +18,7 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>Click-to-play tray icon</h3>
+        <h3>One-click play</h3>
         <p style={{ color: COLORS.gray }}>
           Click the tray icon to toggle the music or use the built-in keyboard shortcuts
         </p>
