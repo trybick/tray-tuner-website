@@ -6,26 +6,17 @@ import { COLORS } from '../styles/constants';
 const Footer = ({ siteTitle }) => (
   <footer
     style={{
-      padding: '1rem',
+      padding: '.5rem',
       backgroundColor: COLORS.lightGray,
     }}
   >
-    <div
-      style={{
-        display: 'grid',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 240px))',
-        padding: '1rem 2rem',
-        fontSize: '.85rem',
-      }}
-    >
-      <div style={{ color: COLORS.blue, fontWeight: 700 }}>
+    <div className="footer">
+      <div className="contact-us">
         <a style={{ textDecoration: 'none' }} href="https://github.com/trybick/tray-tuner">
           Contact Us
         </a>
       </div>
-      <div style={{ color: COLORS.gray, textAlign: 'right' }}>
+      <div className="copyright">
         © {new Date().getFullYear()}
         {` `}
         {siteTitle}
