@@ -9,9 +9,11 @@ import SEO from '../components/seo';
 const DocsPage = () => (
   <Layout>
     <SEO />
-    <h1>Hi from the second page</h1>
-    <p>I may use this as docs page. Or I may use the GitHub repo for docs.</p>
-    <Link to="/">Go back to the homepage</Link>
+    {/* <Link to="/">Go back to the homepage</Link> */}
+
+    <div className="docs-wrapper">
+      <div className="markdown-body">Test Markdown</div>
+    </div>
   </Layout>
 );
 
