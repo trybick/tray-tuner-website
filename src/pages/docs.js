@@ -1,39 +1,38 @@
-import React, { useEffect, useState } from 'react';
-import marked from 'marked';
-// import { Link } from 'gatsby';
-
+/* eslint-disable react/no-danger */
+import React from 'react';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const fetch = require('node-fetch');
+export const pageQuery = graphql`
+  query DocsPageQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+          headings {
+            depth
+            value
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`;
 
-const DocsPage = () => {
-  const [markdownToRender, setMarkdownToRender] = useState();
-
-  useEffect(() => {
-    const docsMarkdownPath = require('../markdown/docs.md');
-
-    // fetch(docsMarkdownPath)
-    //   .then(response => {
-    //     console.log('response:', response);
-    //     return response.text();
-    //   })
-    //   .then(text => {
-    //     console.log('text:', text);
-    //     setMarkdownToRender(marked(text));
-    //   });
-  }, []);
-
-  return (
-    <Layout>
-      <SEO />
-      {/* <Link to="/">Go back to the homepage</Link> */}
-
-      <div className="docs-wrapper">
-        <div className="markdown-body">Placeholder</div>
-      </div>
-    </Layout>
-  );
-};
+const DocsPage = ({ data }) => (
+  <Layout>
+    <SEO />
+    <div className="docs-wrapper">
+      <div
+        className="markdown-body"
+        dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
+      />
+    </div>
+  </Layout>
+);
 
 export default DocsPage;
