@@ -1,6 +1,6 @@
 import React from 'react';
 import headerImage from '../images/header.png';
-import appScreenshot from '../images/screenshots/app.png';
+import appScreenshot from '../images/screenshots/app-window.png';
 import Button from './button';
 
 const downloadsLink =
