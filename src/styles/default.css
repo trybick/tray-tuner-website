@@ -497,3 +497,9 @@ li > p {
   font-size: 16px;
   padding: 45px;
 }
+
+/* Prevent content jumping */
+.app-screenshot-image {
+  width: 422px;
+  height: 537px;
+}

@@ -31,8 +31,8 @@ const Header = () => (
       A desktop application to control online radio streams
     </p>
     <Button to={downloadsLink}>Download</Button>
-    <div>
-      <img src={appScreenshot} alt="app screenshot" />
+    <div className="app-screenshot-wrapper">
+      <img className="app-screenshot-image" src={appScreenshot} alt="app screenshot" />
     </div>
   </div>
 );
