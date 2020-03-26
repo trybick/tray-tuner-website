@@ -1,16 +1,21 @@
 # Tray Tuner
 
----
+
+
+- [Download](#download)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 
 ## Download
 
----
+
 
 Currently the downloads can be found [here](https://drive.google.com/open?id=1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T).
 
 ## Installation
 
----
+
 
 ### macOS
 
@@ -31,7 +36,7 @@ Currently the downloads can be found [here](https://drive.google.com/open?id=1uy
 
 ## Usage
 
----
+
 
 ### Controlling Music
 
@@ -61,7 +66,7 @@ Click the chevon button at the bottom of the application to toggle the Settings 
 
 ## Screenshots
 
----
+
 
 ### Main window
 
