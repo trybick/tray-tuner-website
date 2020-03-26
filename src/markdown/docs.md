@@ -1,21 +1,15 @@
 # Tray Tuner
 
-
-
 - [Download](#download)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 
-## Download
-
-
+## Download <a name="download"></a>
 
 Currently the downloads can be found [here](https://drive.google.com/open?id=1uyz-Y-EZ8_Dw0jdy2QWyLeq5TK0wBp-T).
 
-## Installation
-
-
+## Installation <a name="installation"></a>
 
 ### macOS
 
@@ -34,9 +28,7 @@ Currently the downloads can be found [here](https://drive.google.com/open?id=1uy
 - Extract zip file
 - Run the executable. For example `./Tray Tuner` in a terminal.
 
-## Usage
-
-
+## Usage <a name="usage"></a>
 
 ### Controlling Music
 
@@ -64,9 +56,7 @@ Tray Tuner comes with the three radio streams which can be cycled through by cli
 
 Click the chevon button at the bottom of the application to toggle the Settings drawer. Inside this expanded drawer, click the checkbox "Hide in Dock" to hide the item in your in Dock (macOS only).
 
-## Screenshots
-
-
+## Screenshots <a name="screenshots"></a>
 
 ### Main window
 
