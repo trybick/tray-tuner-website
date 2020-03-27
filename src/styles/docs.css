@@ -1,9 +1,7 @@
 /* Docs Page */
 .docs-wrapper {
   max-width: 980px;
-  border: 1px solid #ddd;
-  outline: 1300px solid #fff;
-  margin: 16px auto;
+  margin: 0 auto 16px;
 
   font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif !important;
   -webkit-font-smoothing: auto;
@@ -15,7 +13,9 @@
   line-height: 1.6;
   word-wrap: break-word;
   font-size: 16px;
-  padding: 45px;
+  padding: 35px 45px 45px;
+
+  border: 1px solid #ddd;
 }
 
 .markdown-body ul {
@@ -29,6 +29,7 @@
 }
 
 .home-link-wrapper {
+  margin: 15px 0;
   text-align: right;
 }
 

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import Button from '../components/button';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../styles/docs.css';
@@ -39,6 +38,11 @@ const DocsPage = ({ data }) => (
           className="markdown-body"
           dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
         />
+        <div className="home-link-wrapper">
+          <Link className="home-link" to="/">
+            Tray Tuner home
+          </Link>
+        </div>
       </div>
     </div>
   </Layout>
