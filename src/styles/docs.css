@@ -39,6 +39,13 @@
   font-size: 17px;
 }
 
+.return-icon {
+  height: 20px;
+  margin: 0;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
 /*
   Markdown Styling from Adam Learns
 */

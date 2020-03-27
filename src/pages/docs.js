@@ -3,6 +3,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import returnIcon from '../images/return.png';
 import '../styles/docs.css';
 
 export const pageQuery = graphql`
@@ -31,7 +32,8 @@ const DocsPage = ({ data }) => (
       <div className="docs-wrapper">
         <div className="home-link-wrapper">
           <Link className="home-link" to="/">
-            Tray Tuner home
+            <img className="return-icon" src={returnIcon} alt="return" />
+            Tray Tuner
           </Link>
         </div>
         <div
@@ -40,7 +42,8 @@ const DocsPage = ({ data }) => (
         />
         <div className="home-link-wrapper">
           <Link className="home-link" to="/">
-            Tray Tuner home
+            <img className="return-icon" src={returnIcon} alt="return" />
+            Tray Tuner
           </Link>
         </div>
       </div>
