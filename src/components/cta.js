@@ -11,7 +11,7 @@ const CallToAction = () => (
     {/* <Button to={documentationLink}>How to Use</Button> */}
 
     <Link to="/docs/">
-      <Button>How to Use</Button>
+      <Button>Learn More</Button>
     </Link>
   </div>
 );

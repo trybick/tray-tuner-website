@@ -4,17 +4,18 @@
   border: 1px solid #ddd;
   outline: 1300px solid #fff;
   margin: 16px auto;
+
+  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif !important;
+  -webkit-font-smoothing: auto;
 }
 
 .markdown-body {
   color: #333333;
   overflow: hidden;
-  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif !important;
   line-height: 1.6;
   word-wrap: break-word;
   font-size: 16px;
   padding: 45px;
-  -webkit-font-smoothing: auto;
 }
 
 .markdown-body ul {
@@ -25,6 +26,16 @@
 .markdown-body ul li {
   margin: 0;
   padding: 0;
+}
+
+.home-link-wrapper {
+  text-align: right;
+}
+
+.home-link {
+  color: #4183c4;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /*

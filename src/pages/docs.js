@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
+import Button from '../components/button';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../styles/docs.css';
@@ -27,11 +28,18 @@ export const pageQuery = graphql`
 const DocsPage = ({ data }) => (
   <Layout>
     <SEO />
-    <div className="docs-wrapper">
-      <div
-        className="markdown-body"
-        dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
-      />
+    <div>
+      <div className="docs-wrapper">
+        <div className="home-link-wrapper">
+          <Link className="home-link" to="/">
+            Tray Tuner home
+          </Link>
+        </div>
+        <div
+          className="markdown-body"
+          dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
+        />
+      </div>
     </div>
   </Layout>
 );
