@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import returnIcon from '../images/github-icon.png';
 import { COLORS } from '../styles/constants';
 
 const Footer = ({ siteTitle }) => (
@@ -13,7 +13,8 @@ const Footer = ({ siteTitle }) => (
     <div className="footer">
       <div className="contact-us">
         <a style={{ textDecoration: 'none' }} href="https://github.com/trybick/tray-tuner">
-          Contact Us
+          <img className="github-icon" src={returnIcon} alt="return" />
+          GitHub
         </a>
       </div>
       <div className="copyright">

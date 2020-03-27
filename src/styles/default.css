@@ -459,7 +459,7 @@ li > p {
 }
 
 .contact-us {
-  color: #5368f1;
+  /* color: #5368f1; */
   font-weight: 700;
 }
 
@@ -484,4 +484,13 @@ li > p {
 .app-screenshot-image {
   width: 422px;
   height: 537px;
+}
+
+/* GitHub icon */
+
+.github-icon {
+  height: 20px;
+  margin: 0;
+  padding-right: 2px;
+  vertical-align: middle;
 }
