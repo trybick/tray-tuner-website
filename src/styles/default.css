@@ -479,8 +479,13 @@ li > p {
   text-align: right;
 }
 
-/* Disable grid and center footer elements */
+/* Prevent content jumping */
+.app-screenshot-wrapper {
+  min-height: 537px;
+}
+
 @media only screen and (max-width: 605px) {
+  /* Disable grid and center footer elements */
   .footer {
     display: block;
     text-align: center;
@@ -489,10 +494,9 @@ li > p {
   .footer div {
     text-align: center;
   }
-}
 
-/* Prevent content jumping */
-.app-screenshot-image {
-  width: 422px;
-  height: 537px;
+  /* Resize app image wrapper */
+  .app-screenshot-wrapper {
+    min-height: 237px;
+  }
 }

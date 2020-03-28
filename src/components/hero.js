@@ -12,7 +12,7 @@ const Header = () => (
       display: 'flex',
       alignItems: 'center',
       flexDirection: 'column',
-      padding: '4rem 1rem',
+      padding: '4rem 1rem 2rem',
     }}
   >
     <div
