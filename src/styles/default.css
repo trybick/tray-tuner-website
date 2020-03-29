@@ -484,6 +484,10 @@ li > p {
   min-height: 537px;
 }
 
+.app-screenshot-image {
+  height: 537px;
+}
+
 @media only screen and (max-width: 605px) {
   /* Disable grid and center footer elements */
   .footer {
