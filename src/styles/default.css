@@ -503,4 +503,8 @@ li > p {
   .app-screenshot-wrapper {
     min-height: 237px;
   }
+
+  .app-screenshot-image {
+    height: unset;
+  }
 }
