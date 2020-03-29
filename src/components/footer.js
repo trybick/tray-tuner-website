@@ -8,6 +8,7 @@ const Footer = ({ siteTitle }) => (
     style={{
       padding: '.5rem',
       backgroundColor: COLORS.lightGray,
+      marginTop: '20px',
     }}
   >
     <div className="footer">

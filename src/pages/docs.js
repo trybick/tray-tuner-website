@@ -33,7 +33,7 @@ const DocsPage = ({ data }) => (
         <div className="home-link-wrapper">
           <Link className="home-link" to="/">
             <img className="return-icon" src={returnIcon} alt="return" />
-            Tray Tuner
+            Back
           </Link>
         </div>
         <div
@@ -43,7 +43,7 @@ const DocsPage = ({ data }) => (
         <div className="home-link-wrapper">
           <Link className="home-link" to="/">
             <img className="return-icon" src={returnIcon} alt="return" />
-            Tray Tuner
+            Back
           </Link>
         </div>
       </div>
