@@ -58,8 +58,14 @@ Click the chevon button at the bottom of the application to toggle the Settings 
 
 ## Screenshots <a name="screenshots"></a>
 
-### Main window
+### Full Window
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/39889198/77488308-31f42180-6e0b-11ea-9182-999ded623685.png" alt="app screenshot">
+  <img src="https://user-images.githubusercontent.com/39889198/77855185-db953300-71bc-11ea-8548-c5ed3b91cbf0.png" alt="full window">
+</p>
+
+### Edit Source Dialog
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/39889198/77855186-dd5ef680-71bc-11ea-8744-99e8345b6526.png" alt="edit source dialog">
 </p>
